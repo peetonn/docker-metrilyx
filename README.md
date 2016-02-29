@@ -12,7 +12,8 @@
         peetonn/docker-metrilyx:latest
 </pre>
 
-    > `&lt;vm-machine-ip&gt;` can be found by running `docker-machine ip &lt;vm-machine-name&gt;`. For the default VM machine: `docker-machine ip default`
-    > `&lt;host-port&gt;` can be arbitrary (udually 8080)
+    > `<vm-machine-ip>` can be found by running `docker-machine ip <vm-machine-name>`. For the default VM machine: `docker-machine ip default`
+    
+    > `<host-port>` can be arbitrary (usually 8080)
 
-3. Go to `&lt;vm-machine-ip&gt;:&lt;host-port&gt;` in your browser
+3. Go to `<vm-machine-ip>:<host-port>` in your browser
