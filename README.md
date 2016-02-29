@@ -2,8 +2,9 @@
 
 1. Start OpenTSDB [docker container](https://github.com/peetonn/docker-opentsdb) first
 
-2. Use Dockerfile provided to start Metrilyx:
+2. Use Dockerfile provided to build image and then start Metrilyx:
 <pre>
+    $ docker build -t peetonn/metrilyx .
     $ docker run \
         -d --name metrilyx \
         -e ACCESS_ADDRESS="&lt;vm-machine-ip&gt;:&lt;host-port&gt;" \
